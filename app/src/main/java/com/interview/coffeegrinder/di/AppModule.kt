@@ -18,7 +18,7 @@ import javax.inject.Singleton
 object AppModule {
 
     @Provides
-    fun provideBaseUrl() = "https://videotutoriale.com/"
+    fun provideBaseUrl() = "https://coffeegrinder.herokuapp.com/"//"https://videotutoriale.com/"
 
     @Singleton
     @Provides

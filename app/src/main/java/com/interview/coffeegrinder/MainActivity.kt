@@ -1,10 +1,8 @@
 package com.interview.coffeegrinder
 
 import android.os.Bundle
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.interview.coffeegrinder.ui.main.MainFragment
-import com.interview.coffeegrinder.ui.main.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

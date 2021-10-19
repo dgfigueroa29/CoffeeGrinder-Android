@@ -32,7 +32,7 @@ class CoffeeGrinderGlideApp : AppGlideModule() {
         val appContext = context.applicationContext
         val entryPoint: MyAppGlideModuleEntryPoint =
             EntryPointAccessors.fromApplication(appContext, MyAppGlideModuleEntryPoint::class.java)
-        val client = entryPoint.defaultOkHttpClient();
+        val client = entryPoint.defaultOkHttpClient()
         registry.replace(
             GlideUrl::class.java,
             InputStream::class.java,
